@@ -1,0 +1,105 @@
+/* global  */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Nunito', sans-serif;
+}
+ul {
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+.sub-title{
+    font-size: 16px;
+    font-weight: 700;
+    color:#dc4f72;
+}
+
+/* chỉnh kích thước button  */
+.theme-button{
+    line-height: 52px;
+    font-size: 14px;
+    padding: 0 30px;
+}
+/* chỉnh màu button đè code boostrap */
+.btn-outline-danger{
+    color:#dc4f72;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+.btn-outline-danger:hover{
+    border-color: #dc4f72;
+    background-color: #dc4f72;
+    color:white;
+}
+
+.header-section{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.header-section h3{
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+}
+.header-section p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+
+/* chuyển động của img khi di chuột vào */
+.img-move{
+    transition:all 0.5s;
+    border-radius:6px;
+}
+.img-move:hover{
+    transform:translateY(-3%);
+}
+
+
+ /* featured  */
+
+
+ 
+ .nav-tabs .nav-link.active, .nav-tabs .show > .nav-link {
+
+    border-bottom: 3px solid #dc4f72;
+  }
+ .nav-item .nav-link.active  {
+    font-size: 22px;
+    color:#dc4f72;
+    font-weight: 700;   
+}
+.nav-item .nav-link{
+    font-size: 22px;
+    color:#2C3038;
+    font-weight: 700;
+}
+
+
+ .featured-content  h3{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.featured-content  p{
+    font-size: 13px;
+    margin-bottom: 16px;
+    color:#5a5a5a;
+}
+
+
+  
+
+
+
+
